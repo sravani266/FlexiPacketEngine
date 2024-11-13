@@ -22,6 +22,7 @@ Example Flow in a Wi-Fi Transmission:
 * If any frames are missing or corrupted, the receiver can request retransmission of those specific frames.
  
 
+
 ## How to test
 The Testbench is attached in the src folder. Run the testbench using iverilog and generate the .vcd file. Dump the .vcd file and it'll work as expected.
 
@@ -33,6 +34,7 @@ Details of Clock Cycle required for every steps:
 * Footer           --> 1 Clock Cycle
 * Total Ticks = 2x+4
 Total Clock Cycles required for max 100 Payloads will be 204 (~205) Clock Cycles. The Next Data Payload should come atleast 2050ns(205*10ns). 
+
 
 
 ## Rendering GDS
